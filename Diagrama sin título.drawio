@@ -476,7 +476,7 @@
         <mxCell id="StNupMPzcm6Hf3_42b4G-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="StNupMPzcm6Hf3_42b4G-1" source="StNupMPzcm6Hf3_42b4G-34" target="StNupMPzcm6Hf3_42b4G-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="StNupMPzcm6Hf3_42b4G-34" value="No establece sesion&lt;div&gt;No establece user&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="StNupMPzcm6Hf3_42b4G-1">
+        <mxCell id="StNupMPzcm6Hf3_42b4G-34" value="github.js&lt;div&gt;/logoutFailed&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="StNupMPzcm6Hf3_42b4G-1">
           <mxGeometry x="710" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="StNupMPzcm6Hf3_42b4G-35" value="DLB" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="StNupMPzcm6Hf3_42b4G-1">
