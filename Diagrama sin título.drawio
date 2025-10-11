@@ -782,8 +782,8 @@
         <mxCell id="8epBNiR9PZ-Sq8rSkhEC-44" value="DashboardLayoutBasic" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="227.5" y="70" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8epBNiR9PZ-Sq8rSkhEC-46" value="Se debe acceder desde DashboardLayoutBasic a la aplicacion Cliente para obtner los datos del usuario como los permisos usando la sesiòn generada antes mediante la cookie" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="690" width="60" height="30" as="geometry" />
+        <mxCell id="8epBNiR9PZ-Sq8rSkhEC-46" value="Se debe acceder desde DashboardLayoutBasic a la aplicacion Cliente para obtner los datos del usuario como los permisos usando la sesiòn generada antes mediante la cookie" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="690" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
