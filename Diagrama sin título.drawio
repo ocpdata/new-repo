@@ -271,6 +271,9 @@
         <mxCell id="TwT57UbxqcIi6v7Nd_SE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="TwT57UbxqcIi6v7Nd_SE-1" source="TwT57UbxqcIi6v7Nd_SE-5" target="TwT57UbxqcIi6v7Nd_SE-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="OcPqwJeXg_hUf9wWlsoJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="TwT57UbxqcIi6v7Nd_SE-1" source="TwT57UbxqcIi6v7Nd_SE-5" target="TwT57UbxqcIi6v7Nd_SE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TwT57UbxqcIi6v7Nd_SE-5" value="Autenticación" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TwT57UbxqcIi6v7Nd_SE-1">
           <mxGeometry x="650" y="250" width="120" height="60" as="geometry" />
         </mxCell>
