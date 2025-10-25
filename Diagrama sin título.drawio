@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7" pages="10">
   <diagram name="Página-1" id="0mbalHexoDR8S5XKkGDv">
     <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1140,6 +1140,148 @@
           <mxGeometry x="227.5" y="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8epBNiR9PZ-Sq8rSkhEC-46" value="Se debe acceder desde DashboardLayoutBasic a la aplicacion Cliente para obtner los datos del usuario como los permisos usando la sesiòn generada antes mediante la cookie" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="690" width="370" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copia de Página-6" id="BPQg8w3KC4IwF8d7lTHT">
+    <mxGraphModel dx="1426" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-0" />
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-1" parent="3XYl1t-20JQ_eTlbChBC-0" />
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-2" value="Rutas" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="60" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-3" value="/&amp;nbsp; &amp;nbsp;--&amp;gt;&amp;nbsp; Login" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="40" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-4" value="/login. --&amp;gt;&amp;nbsp; OAuthSignInPage" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="40" y="380" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-5" value="" style="group" vertex="1" connectable="0" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="200" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-5">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-7" value="Login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-5">
+          <mxGeometry x="30" y="10" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-8" value="userId = 0" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="200" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-9" value="" style="group" vertex="1" connectable="0" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="172.5" y="440" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-9">
+          <mxGeometry width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-11" value="Google" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-9">
+          <mxGeometry x="40" y="30" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-12" value="Github" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-9">
+          <mxGeometry x="40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-13" value="FB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-9">
+          <mxGeometry x="40" y="60" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-14" value="Local" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-9">
+          <mxGeometry x="40" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-15" value="Client :5010" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="480" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-16" value="Rutas" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="470" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3XYl1t-20JQ_eTlbChBC-1" source="3XYl1t-20JQ_eTlbChBC-18" target="3XYl1t-20JQ_eTlbChBC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-18" value="/auth/google&amp;nbsp; --&amp;gt;. Pide el codigo de autorizacion, consentimiento, y scope" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="470" y="500" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3XYl1t-20JQ_eTlbChBC-1" source="3XYl1t-20JQ_eTlbChBC-21" target="3XYl1t-20JQ_eTlbChBC-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="170" />
+              <mxPoint x="360" y="470" />
+              <mxPoint x="253" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3XYl1t-20JQ_eTlbChBC-1" source="3XYl1t-20JQ_eTlbChBC-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-21" value="Authorization Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="680" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3XYl1t-20JQ_eTlbChBC-1" source="3XYl1t-20JQ_eTlbChBC-6" target="3XYl1t-20JQ_eTlbChBC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3XYl1t-20JQ_eTlbChBC-1" source="3XYl1t-20JQ_eTlbChBC-11" target="3XYl1t-20JQ_eTlbChBC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-24" value="Redirecciona a https://peoplenode.digitalvs.com:5010/auth/google" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="190" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-25" value="" style="group" vertex="1" connectable="0" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="720" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-26" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-25">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-27" value="User:&lt;br&gt;Password:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-25">
+          <mxGeometry y="15" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-28" value="Autentica al usuario" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="680" y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-29" value="/auth/google/callback. --&amp;gt;. Despues de validar al usuario:&lt;br&gt;-Solicita el access token&lt;br&gt;- Despues de obtener al access token, ejecuta la función verify&lt;br&gt;- La función verifiy valida el usuario en la App&lt;br&gt;- En la sesión se guardan los datos del usuario" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="480" y="595" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-30" value="&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;Crea una sesión unica para cada conexión&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;- Crea una cookie y la comparte con el navegador para validar la comunicación entre el navegador y la App Cliente&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="400" y="390" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3XYl1t-20JQ_eTlbChBC-1" source="3XYl1t-20JQ_eTlbChBC-11" target="3XYl1t-20JQ_eTlbChBC-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="485" />
+              <mxPoint x="300" y="560" />
+              <mxPoint x="480" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.875;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3XYl1t-20JQ_eTlbChBC-1" source="3XYl1t-20JQ_eTlbChBC-29" target="3XYl1t-20JQ_eTlbChBC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-33" value="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="210" y="230" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-34" value="2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="360" y="482.5" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-35" value="3" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="630" y="260" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-36" value="4" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="490" y="140" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-37" value="5" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="370" y="530" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-38" value="6" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="750" y="350" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-39" value="7" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="700" y="390" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-40" value="DashboardLayoutBasic" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
+          <mxGeometry x="227.5" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3XYl1t-20JQ_eTlbChBC-41" value="Se debe acceder desde DashboardLayoutBasic a la aplicacion Cliente para obtner los datos del usuario como los permisos usando la sesiòn generada antes mediante la cookie" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3XYl1t-20JQ_eTlbChBC-1">
           <mxGeometry x="10" y="690" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
