@@ -2405,7 +2405,7 @@
         <mxCell id="_Rk7e854cMtWriSjCGeF-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/login" vertex="1">
           <mxGeometry height="30" width="60" x="450" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="_Rk7e854cMtWriSjCGeF-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Usa estrategia local&lt;div&gt;Coloca API_KEY en headers[&quot;x-api-key&quot;]&lt;/div&gt;&lt;div&gt;Busca al usuario en la BD&lt;/div&gt;&lt;div&gt;Obtiene el password en la BD&lt;/div&gt;&lt;div&gt;Si coinciden con lo enviado, genera un jwtToken con los datos del usuario:id, email, name y retorna el user con id, emails, displáyName, strategy y jwtToken&lt;/div&gt;&lt;div&gt;Se registra el usuario en la sesión y se serializan los datos&lt;/div&gt;" vertex="1">
+        <mxCell id="_Rk7e854cMtWriSjCGeF-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Usa estrategia local&lt;div&gt;Coloca API_KEY en headers[&quot;x-api-key&quot;]&lt;/div&gt;&lt;div&gt;Busca al usuario en la BD&lt;/div&gt;&lt;div&gt;Obtiene el password en la BD&lt;/div&gt;&lt;div&gt;Si coinciden con lo enviado, genera un jwtToken con los datos del usuario:id, email y name.&lt;/div&gt;&lt;div&gt;Retorna los datos del usuario autenticado: id, emails, displáyName, strategy y jwtToken a rutas&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="210" x="590" y="430" as="geometry" />
         </mxCell>
       </root>
