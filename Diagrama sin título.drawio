@@ -2406,10 +2406,10 @@
           <mxGeometry height="30" width="60" x="450" y="370" as="geometry" />
         </mxCell>
         <mxCell id="_Rk7e854cMtWriSjCGeF-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Usa estrategia local&lt;div&gt;Coloca API_KEY en headers[&quot;x-api-key&quot;]&lt;/div&gt;&lt;div&gt;Busca al usuario en la BD&lt;/div&gt;&lt;div&gt;Obtiene el password en la BD&lt;/div&gt;&lt;div&gt;Si coinciden con lo enviado, genera un jwtToken con los datos del usuario:id, email y name.&lt;/div&gt;&lt;div&gt;Retorna los datos del usuario autenticado:&amp;nbsp;&lt;/div&gt;&lt;div&gt;{error: null,&lt;/div&gt;&lt;div&gt;success: tru,&lt;/div&gt;&lt;div&gt;user:{id, emails, displáyName, strategy y jwtToken}&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&amp;nbsp;a rutas&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="210" x="590" y="430" as="geometry" />
+          <mxGeometry height="30" width="210" x="590" y="470" as="geometry" />
         </mxCell>
         <mxCell id="_Rk7e854cMtWriSjCGeF-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Registra los datos del usuario autenticado user:{&lt;span style=&quot;text-align: left;&quot;&gt;id, emails, displáyName, strategy y jwtToken}&lt;/span&gt;&amp;nbsp;en la sesión de passport y serializa los datos&lt;div&gt;Prepara el cookie como respuesta al navegador con el jwtToken obtenido del paso anterior&lt;/div&gt;&lt;div&gt;Guarda los datos del usuario autenticado en Red usando como key user:jwtToken&lt;/div&gt;&lt;div&gt;Retorna los dos del usuario autenticado&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="250" x="830" y="360" as="geometry" />
+          <mxGeometry height="30" width="250" x="830" y="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
