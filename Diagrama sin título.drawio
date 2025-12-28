@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="29.2.9" pages="14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="29.2.9" pages="15">
   <diagram name="Página-1" id="0mbalHexoDR8S5XKkGDv">
     <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2360,6 +2360,53 @@
         </mxCell>
         <mxCell id="ZhqYIqw_Ssp-rcD-skcZ-25" value="/configuracion/usuarios/email" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="670" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yH6NXsyc6GrVOmF-C896" name="Página-15">
+    <mxGraphModel dx="1410" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_Rk7e854cMtWriSjCGeF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GET /auth/login/success" vertex="1">
+          <mxGeometry height="30" width="140" x="100" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_Rk7e854cMtWriSjCGeF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="proxyRequest" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_Rk7e854cMtWriSjCGeF-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/login/success" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_Rk7e854cMtWriSjCGeF-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Si no hay req.user, no avanza" vertex="1">
+          <mxGeometry height="30" width="110" x="450" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_Rk7e854cMtWriSjCGeF-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GET /auth/login/success" vertex="1">
+          <mxGeometry height="30" width="150" x="90" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="_Rk7e854cMtWriSjCGeF-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="proxyRequest" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="_Rk7e854cMtWriSjCGeF-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/login/success" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="_Rk7e854cMtWriSjCGeF-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Si no hay req.user, no avanza" vertex="1">
+          <mxGeometry height="30" width="110" x="450" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="_Rk7e854cMtWriSjCGeF-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="POST /auth/login" vertex="1">
+          <mxGeometry height="30" width="120" x="90" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_Rk7e854cMtWriSjCGeF-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="body: {email, password}" vertex="1">
+          <mxGeometry height="30" width="140" x="90" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_Rk7e854cMtWriSjCGeF-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="proxyRequest" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_Rk7e854cMtWriSjCGeF-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/login" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_Rk7e854cMtWriSjCGeF-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Usa estrategia local&lt;div&gt;Coloca API_KEY en headers[&quot;x-api-key&quot;]&lt;/div&gt;&lt;div&gt;Busca al usuario en la BD&lt;/div&gt;&lt;div&gt;Obtiene el password en la BD&lt;/div&gt;&lt;div&gt;Si coinciden con lo enviado, genera un jwtToken con los datos del usuario:id, email, name y retorna el user con id, emails, displáyName, strategy y jwtToken&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="210" x="590" y="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
