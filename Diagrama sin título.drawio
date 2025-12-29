@@ -2455,6 +2455,9 @@
         <mxCell id="j8ml9NWZdLLNPYDLCvue-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="validarJWT" vertex="1">
           <mxGeometry height="30" width="60" x="560" y="90" as="geometry" />
         </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="120" width="240" x="480" y="410" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
