@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="29.2.9" pages="15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="29.2.9" pages="16">
   <diagram name="Página-1" id="0mbalHexoDR8S5XKkGDv">
     <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2413,6 +2413,47 @@
         </mxCell>
         <mxCell id="_Rk7e854cMtWriSjCGeF-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
           <mxGeometry height="30" width="60" x="590" y="630" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DprAqvYooRpL6wewM-Or" name="Página-16">
+    <mxGraphModel dx="1410" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="110" width="210" x="165" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="API Gateway" vertex="1">
+          <mxGeometry height="30" width="100" x="220" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-13" edge="1" parent="1" source="j8ml9NWZdLLNPYDLCvue-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.206;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryPerimeter=0;" target="j8ml9NWZdLLNPYDLCvue-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Valida el JWT&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="80" x="190" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Reenvía la solicitud al servicio que le corresponde" vertex="1">
+          <mxGeometry height="30" width="170" x="190" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="170" width="240" x="480" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Lee el JWT que envia el navegador" vertex="1">
+          <mxGeometry height="30" width="200" x="490" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelPosition=center;verticalLabelPosition=middle;" value="Si no hay JWT, solo permite acceso a las rutas /auth/*" vertex="1">
+          <mxGeometry height="30" width="240" x="490" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Si hay JWT valido, obtiene los datos del usuario" vertex="1">
+          <mxGeometry height="30" width="240" x="490" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Los datos del usuario los coloca en &amp;nbsp;req.userFromRedis&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="190" x="490" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="validarJWT" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
