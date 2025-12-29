@@ -2661,13 +2661,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j8ml9NWZdLLNPYDLCvue-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" value="" vertex="1">
-          <mxGeometry height="180" width="240" x="790" y="750" as="geometry" />
+          <mxGeometry height="220" width="240" x="790" y="750" as="geometry" />
         </mxCell>
         <mxCell id="j8ml9NWZdLLNPYDLCvue-89" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Estrategia Google" vertex="1">
           <mxGeometry height="30" width="100" x="845" y="720" as="geometry" />
         </mxCell>
         <mxCell id="j8ml9NWZdLLNPYDLCvue-90" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Envia el token en el header Authorization" vertex="1">
-          <mxGeometry height="30" width="190" x="800" y="780" as="geometry" />
+          <mxGeometry height="30" width="190" x="800" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-91" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Retorna de la autenticación de Google con el token y profile" vertex="1">
+          <mxGeometry height="30" width="180" x="800" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-92" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Obtiene los datos del usuario desde la BD" vertex="1">
+          <mxGeometry height="30" width="170" x="800" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Crea un JWT con datos básicos del usuario: id, email, name" vertex="1">
+          <mxGeometry height="30" width="190" x="800" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-94" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Devuelve los datos completos del usuario: id, emails, displáyName, strategy, jwtToken, token&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="200" x="800" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="220" width="240" x="480" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="j8ml9NWZdLLNPYDLCvue-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Acceso Google: /google" vertex="1">
+          <mxGeometry height="30" width="180" x="495" y="770" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
